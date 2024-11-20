@@ -69,6 +69,16 @@ button:hover {
     background-color: rgb(129, 147, 196);
 }
 
+.error {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
 label {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 900;
@@ -82,3 +92,12 @@ input {
     border-radius: 5px;
 }
 
+.valid {
+    background-color: rgb(166, 253, 166);
+    border-color: rgb(3, 92, 3);
+}
+
+.invalid {
+    background-color: rgb(255, 172, 172);
+    border-color: rgb(112, 16, 16);
+}
