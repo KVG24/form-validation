@@ -24,6 +24,7 @@ body {
     height: 700px;
     background-color: rgb(164, 179, 192);
     border-radius: 20px;
+    box-shadow: 0 0 100px 0 black;
 }
 
 .form {
@@ -59,7 +60,8 @@ button {
     width: 100px;
     height: 30px;
     border-radius: 5px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
     font-size: 1rem;
     font-weight: 900;
 }
@@ -74,15 +76,24 @@ button:hover {
     height: 30px;
     text-align: center;
     color: red;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
     font-weight: 900;
     font-size: 1.2rem;
 }
 
 label {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
     font-weight: 900;
     font-size: 1.5rem;
+    text-align: center;
+}
+
+#pass-hint {
+    font-size: 0.8rem;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
     text-align: center;
 }
 
@@ -92,12 +103,18 @@ input {
     border-radius: 5px;
 }
 
+select {
+    height: 30px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
 .valid {
     background-color: rgb(166, 253, 166);
-    border-color: rgb(3, 92, 3);
+    border-color: rgb(0, 255, 0);
 }
 
 .invalid {
     background-color: rgb(255, 172, 172);
-    border-color: rgb(112, 16, 16);
+    border-color: rgb(255, 0, 0);
 }
